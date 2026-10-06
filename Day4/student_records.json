@@ -1,0 +1,15 @@
+[
+    {
+        "name": "hammad",
+        "roll_number": "23",
+        "age": 24,
+        "course": "python",
+        "subjects": {
+            "ai": 34.0,
+            "bio": 23.0,
+            "math": 23.0
+        },
+        "average": 26.666666666666668,
+        "grade": "F"
+    }
+]
