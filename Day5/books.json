@@ -1,0 +1,15 @@
+[
+    {
+        "type": "book",
+        "title": "Python Basics",
+        "author": "John",
+        "available": true
+    },
+    {
+        "type": "ebook",
+        "title": "Machine Learning",
+        "author": "Andrew",
+        "file_size": 5.5,
+        "available": true
+    }
+]
