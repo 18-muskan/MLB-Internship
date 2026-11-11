@@ -1,0 +1,10 @@
+input_videos/*.mp4
+input_videos/working/*.mp4
+output_videos/*.mp4
+
+processed_video streamlit.mp4
+
+__pycache__/
+*.pyc
+test_app.py
+simple_video_test.py
