@@ -1,26 +1,20 @@
-
----
-title: Computer Vision Image Processing Studio
-emoji: 📸
-colorFrom: blue
-colorTo: purple
-sdk: gradio
-sdk_version: 6.32.0
-app_file: app.py
-pinned: false
----
-
 # Computer Vision Image Processing Studio
 
 ## Overview
 
-Computer Vision Image Processing Studio is an interactive web application built using Python, OpenCV, NumPy and Gradio.
+Computer Vision Image Processing Studio is an interactive web application built using Python, OpenCV, NumPy and Streamlit.
 
-It allows users to upload images, apply different image processing techniques, preview the results and download processed images.
+It allows users to upload images, apply different computer vision techniques, preview processed results and download the output images.
+
+## Live Application
+
+Streamlit App: https://computer-vision-image-studio.streamlit.app/
+
+GitHub Repository: https://github.com/18-muskan/MLB-Internship/tree/main/Day28
 
 ## Features
 
-- Upload images.
+- Upload JPG, JPEG and PNG images.
 - Grayscale conversion.
 - Gaussian blur.
 - Edge detection using Canny.
@@ -41,7 +35,7 @@ It allows users to upload images, apply different image processing techniques, p
 - Python 3.13
 - OpenCV
 - NumPy
-- Gradio
+- Streamlit
 - Pillow
 
 ## Project Structure
@@ -50,6 +44,7 @@ It allows users to upload images, apply different image processing techniques, p
 Day28/
 │
 ├── app.py
+├── streamlit_app.py
 ├── requirements.txt
 ├── README.md
 │
@@ -64,40 +59,38 @@ Day28/
 ## How to Run Locally
 
 1. Clone the repository.
-2. Open the project folder.
-3. Install dependencies:
+2. Open the Day28 folder.
+3. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+4. Run the Streamlit application:
 
 ```bash
-python app.py
+streamlit run streamlit_app.py
 ```
 
-5. Open the local Gradio URL in your browser.
+5. Open the local URL displayed in the terminal.
 
 ## How to Use
 
-1. Upload an image.
-2. Select an image processing operation.
-3. Adjust advanced settings if required.
-4. Click Process Image.
-5. View the processed result.
-6. Download the output image.
-
-## Custom Features
-
-The project also includes additional image processing features such as brightness and contrast adjustment, image sharpening, image flipping and multiple filters in sequence.
+1. Open the application.
+2. Upload a JPG, JPEG or PNG image.
+3. Select an image processing operation.
+4. Adjust brightness, contrast or rotation settings if needed.
+5. Preview the original and processed images.
+6. Download the processed image.
 
 ## Deployment
 
-The application is designed for deployment on Hugging Face Spaces using Gradio.
+The application is deployed using Streamlit Community Cloud and connected to the GitHub repository.
+
+The public application can be accessed through the live link provided above.
 
 ## Internship Project
 
 MLB Internship - Day 28
 
-Computer Vision Image Processing Studio
+Project: Computer Vision Image Processing Studio
