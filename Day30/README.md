@@ -228,3 +228,9 @@ Live Demo: To be added after deployment.
 **Internship:** Machine Learning Internship – Day 30
 
 **GitHub Repository:** https://github.com/18-muskan/MLB-Internship
+
+## Live Demo
+
+Try the Image Segmentation Studio online:
+
+https://ai-image-segmentation-studio.streamlit.app/
