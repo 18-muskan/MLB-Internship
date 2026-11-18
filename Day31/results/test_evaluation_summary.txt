@@ -1,0 +1,14 @@
+YOLOv8 Construction Equipment Detection - Test Results
+
+Test Images: 494
+Ground-truth Instances: 758
+
+Precision: 87.07%
+Recall: 84.41%
+mAP@50: 88.12%
+mAP@50-95: 72.68%
+
+Model: YOLOv8 Nano
+Image Size: 640
+Training Epochs: 10
+Hardware: NVIDIA Tesla T4

@@ -1,0 +1,12 @@
+Dataset: SODA1 Construction Equipment
+Source: https://universe.roboflow.com/soda1/equipment-wmk6r
+License: CC BY 4.0
+
+Total images: 9,986
+Train: 7,790
+Validation: 1,702
+Test: 494
+
+The complete dataset is not included in this submission package.
+Download it from the source above and extract train, valid, and test
+folders into the project root to run training or evaluation scripts.

@@ -1,0 +1,18 @@
+
+path: .
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 10
+names:
+  0: backhoe_loader
+  1: compactor
+  2: concrete_mixer_truck
+  3: dozer
+  4: dump_truck
+  5: excavator
+  6: grader
+  7: mobile_crane
+  8: tower_crane
+  9: wheel_loader
