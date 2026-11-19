@@ -594,22 +594,37 @@ if "tracking_result" in st.session_state:
 # FOOTER
 # ---------------------------------------
 
-st.divider()
+st.html("""
+<div style="
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #263449;
+">
 
-st.markdown("""
-<div style="text-align:center; padding:15px;">
-
-    <div style="color:#5eead4; font-weight:700;">
+    <div style="
+        color: #5eead4;
+        font-weight: 700;
+        font-size: 16px;
+    ">
         VISIONTRACK AI
     </div>
 
-    <div style="color:#8292a8; font-size:12px;">
+    <div style="
+        color: #8292a8;
+        font-size: 12px;
+        margin-top: 6px;
+    ">
         Intelligent Computer Vision & Multi-Object Tracking
     </div>
 
-    <div style="color:#64748b; font-size:11px; margin-top:8px;">
+    <div style="
+        color: #64748b;
+        font-size: 11px;
+        margin-top: 8px;
+    ">
         Powered by YOLO11n · Ultralytics · OpenCV · Streamlit
     </div>
 
 </div>
-""", unsafe_allow_html=True)
+""")
