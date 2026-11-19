@@ -212,32 +212,46 @@ with st.sidebar:
     st.caption("VISIONTRACK AI | DAY 32 PROJECT")
 
 
+
 # ---------------------------------------
 # HEADER
 # ---------------------------------------
 
-st.markdown("""
-<div class="hero">
-    <div style="display:flex; justify-content:space-between;
-                align-items:center; flex-wrap:wrap; gap:10px;">
-
-        <div>
-            <div class="hero-title">
-                Intelligent Object Tracking
-            </div>
-
-            <div class="hero-subtitle">
-                Detect, identify and track multiple objects
-                across video frames using advanced AI.
-            </div>
+st.html("""
+<div style="
+    background: linear-gradient(120deg, #132b40, #123b43, #142b45);
+    border: 1px solid #285264;
+    border-radius: 18px;
+    padding: 28px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+">
+    <div>
+        <div style="font-size:32px; font-weight:750; color:#f8fafc;">
+            Intelligent Object Tracking
         </div>
-
-        <div class="status-pill">
-            ● SYSTEM READY
+        <div style="color:#b4c8d8; font-size:14px; margin-top:8px;">
+            Detect, identify and track multiple objects across video frames using advanced AI.
         </div>
     </div>
+
+    <div style="
+        padding: 8px 14px;
+        border-radius: 20px;
+        background: #123d35;
+        color: #6ee7b7;
+        font-size: 12px;
+        font-weight: 700;
+    ">
+        ● SYSTEM READY
+    </div>
 </div>
-""", unsafe_allow_html=True)
+""")
+
 
 
 # ---------------------------------------
