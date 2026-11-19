@@ -1,0 +1,7 @@
+output_videos/
+sample_videos/
+*.avi
+*.mp4
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
