@@ -1,6 +1,6 @@
-
+streamlit
 ultralytics==8.4.215
 opencv-python-headless
-streamlit
-pandas
 numpy
+pandas
+Pillow
